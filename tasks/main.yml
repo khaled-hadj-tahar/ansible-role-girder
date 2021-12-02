@@ -5,7 +5,7 @@
     update_cache: true
     cache_valid_time: 3600  # 1 hour
     name:
-      - python3-venv
+      - python3.4-venv
       - python3-setuptools
       - python3-dev
     force_apt_get: true

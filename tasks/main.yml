@@ -26,7 +26,7 @@
 - name: Install a recent pip version
   pip:
     name: pip
-    version: ">=21.0.1"
+    version: "21.3.1"
     virtualenv: "{{ girder_virtualenv }}"
     # Implicitly create a Python 3 virtualenv if it doesn't exist
     virtualenv_command: "/usr/bin/python3 -m venv"

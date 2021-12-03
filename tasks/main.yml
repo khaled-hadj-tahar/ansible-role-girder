@@ -26,11 +26,7 @@
 - name: Install a recent pip version
   pip:
     name: pip
-<<<<<<< HEAD
     version: "21.1.1"
-=======
-    version: "21.3.1"
->>>>>>> 152a3c3f08ad7796563f0b63ae036f9ffe5e317f
     virtualenv: "{{ girder_virtualenv }}"
     # Implicitly create a Python 3 virtualenv if it doesn't exist
     virtualenv_command: "/usr/bin/python3 -m venv"
